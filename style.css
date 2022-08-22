@@ -78,7 +78,87 @@ font-family: 'Poppins', sans-serif;
    padding-top: 15px;
 }
 .another-amount{
+   text-align: center;
    border-top: none;
    border-left: none;
    border-right: none;
+   width: 40%;  
 }
+.socity-main{
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-left: 20%;
+   margin-right: 20%;
+   margin-bottom: 20px; 
+   border-radius: 0px; 
+    gap: 30px;
+
+}
+.socity-banner{
+    padding: 20px;
+    border-radius: 10px;
+}
+.donate-people{
+    display: flex;
+    margin-bottom: 20px;
+    padding-left: 400px;
+    padding-right: 200px;
+    padding-top: 40px;
+    width: 60%;
+    gap: 40px;
+}
+.donate-people img{
+    width: 40vmax;
+    border-radius: 30px;
+}
+.writing{
+    padding-top: 10px;
+}
+.email-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    width: 50vw;
+    background-color: rgb(142, 226, 226);
+}
+.special-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    padding-bottom: 20px;
+
+}
+.s-button {
+    height: 35px;
+    padding: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 20%;
+
+}
+
+.e-button {
+    height: 25px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 50%;
+    background-color: rgb(218, 211, 211);
+}
+.footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    
+    
+}
+.footer-color{
+    margin-top: 5%;
+    color:  red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+

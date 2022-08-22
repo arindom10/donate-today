@@ -34,9 +34,40 @@ font-family: 'Poppins', sans-serif;
     text-align: center;
     justify-content: center;
     display: list-item;
-    padding-top: 10%;
+    padding-top: 20px;
 }
 .donate-today h1{
     font-size: xx-large;
     color: black;
 }
+.amount{
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-left: 30%;
+   margin-right: 30%;
+   margin-bottom: 30px; 
+   border-radius: 10px;   
+} 
+.donate-amount{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+    background: #fafafa;
+  box-sizing: border-box;
+  height: 70px;
+  width: 120px;
+  border-radius: 5px;
+}
+.special-amount{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+    background: #ffeeee;
+  border: 2px solid #ff5959;
+  box-sizing: border-box;
+  height: 70px;
+  width: 120px;
+  border-radius: 5px;
+}
+

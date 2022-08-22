@@ -39,6 +39,7 @@ font-family: 'Poppins', sans-serif;
 .donate-today h1{
     font-size: xx-large;
     color: black;
+    padding-top: 20px;
 }
 .amount{
     display: flex;
@@ -55,7 +56,7 @@ font-family: 'Poppins', sans-serif;
    justify-content: center;
     background: #fafafa;
   box-sizing: border-box;
-  height: 70px;
+  height: 120px;
   width: 120px;
   border-radius: 5px;
 }
@@ -66,8 +67,18 @@ font-family: 'Poppins', sans-serif;
     background: #ffeeee;
   border: 2px solid #ff5959;
   box-sizing: border-box;
-  height: 70px;
+  height: 120px;
   width: 120px;
   border-radius: 5px;
 }
-
+.amount-type{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-top: 15px;
+}
+.another-amount{
+   border-top: none;
+   border-left: none;
+   border-right: none;
+}

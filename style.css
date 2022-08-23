@@ -151,8 +151,55 @@ font-family: 'Poppins', sans-serif;
     padding: 5px;
     border-radius: 5px;
     width: 50%;
-    background-color: rgb(218, 211, 211);
+    background-color: FFF4D6;
 }
+.extra-section{
+    padding: 0% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 20px;
+
+}
+.h-color{
+    color: red;
+    font-size: 50px;
+}
+
+.extra-section-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.extra-form{
+    width: 100%;
+}
+
+.extra-input{
+    width:80%;
+        padding: 10px;
+    height: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+
+.extra-button{
+    width: 82%;
+    padding: 20px;
+    height: 60px;
+    margin-bottom: 20px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    margin: 0;
+}
+
 .footer{
     text-align: center;
     background-color: black;
